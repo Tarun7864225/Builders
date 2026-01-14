@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Home() {
   const [open, setOpen] = useState(false);
   return (
-    <main className="font-sans">
+    <main className="font-sans bg-white text-black">
       {/* HEADER */}
       <header className="border-b">
         <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
